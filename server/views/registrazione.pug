@@ -1,0 +1,27 @@
+extends layout
+
+block content
+    #main 
+     form(action="#")
+       div.label Registrati
+       div.nome
+        input(type="text" placeholder="Nome")
+       div.cognome
+        input(type="text" placeholder="Cognome")
+       div.email
+        input(type="text" placeholder="Email") 
+       div.username
+        input(type="text" placeholder="Username")
+       div.password
+        input(type="password" placeholder="Password")
+       div.checkbox
+        input(type='checkbox' name='agreement' checked)
+        |Ricordami
+       button(type="button") Registrati
+       h3 o effettua il login tramite
+       div.social
+        button(type="button") <i class="fa fa-facebook"></i>
+        button(type="button") <i class="fa fa-google-plus"></i>
+       p
+        | Sei già registrato?
+        a(href="/users") Effettua il Login
