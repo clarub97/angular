@@ -2,7 +2,7 @@ extends layout
 
 block content
     #main
-     form(action="#")
+     form(method="post" action="/")
        div.label Login
        div.username
         input(type="text" placeholder="Username")
@@ -11,12 +11,12 @@ block content
        div.checkbox
         input(type='checkbox' name='agreement' checked)
         |Ricordami
-       button(type="button") Accedi
+       button(type="submit") Accedi
        h3 oppure effettua il login tramite
        div.social
         button(type="button") <i class="fa fa-facebook"></i>
         button(type="button") <i class="fa fa-google-plus"></i>
        p
-        | not a member
-        a(href="/users/registrazione") Registrati
+        | Se non hai un account,
+        a(href="/registrazione") Registrati
     

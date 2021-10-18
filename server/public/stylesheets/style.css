@@ -1,16 +1,8 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
-
-a {
-  color: #00B7FF;
-}
-
 /* W3hubs.com - Download Free Responsive Website Layout Templates designed on HTML5 CSS3,Bootstrap,Tailwind CSS which are 100% Mobile friendly. w3Hubs all Layouts are responsive cross browser supported, best quality world class designs. */
 
 body {
   /*background-image: url('https://w3hubs.com/Login-Form-In-Pug/bg.jpg');*/
+  background-color: darkseagreen;
   padding: 0;
   margin: 0px;
   font-family: 'Lato', sans-serif;
@@ -72,6 +64,8 @@ h3 {
 p {
   text-align: center;
   color: #fff;
+  line-height: 1.6;
+  letter-spacing: 1px;
 }
 
 .social {
